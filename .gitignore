@@ -1,0 +1,5 @@
+# Unrelated projects
+project/
+
+# macOS
+.DS_Store

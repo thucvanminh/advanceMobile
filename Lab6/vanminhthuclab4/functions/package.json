@@ -1,0 +1,21 @@
+{
+  "name": "vanminhthuclab4-functions",
+  "description": "Cloud Functions for vanminhthuclab4",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^13.2.0",
+    "firebase-functions": "^6.3.2",
+    "google-auth-library": "^10.7.0"
+  },
+  "private": true
+}
