@@ -1,0 +1,168 @@
+// Tiếng Việt UI Strings
+
+const vi = {
+  // Auth
+  login: 'Đăng nhập',
+  signUp: 'Đăng ký',
+  email: 'Email',
+  password: 'Mật khẩu',
+  confirmPassword: 'Xác nhận mật khẩu',
+  noAccount: 'Chưa có tài khoản?',
+  hasAccount: 'Đã có tài khoản?',
+  loginError: 'Email hoặc mật khẩu không đúng',
+  signUpError: 'Đăng ký thất bại',
+  passwordMismatch: 'Mật khẩu xác nhận không khớp',
+  logout: 'Đăng xuất',
+
+  // Navigation
+  dashboard: 'Bảng giá',
+  trade: 'Giao dịch',
+  portfolio: 'Danh mục',
+  alerts: 'Cảnh báo',
+  notifications: 'Thông báo',
+  settings: 'Cài đặt',
+  admin: 'Quản trị',
+  detail: 'Chi tiết',
+  help: 'Trợ giúp',
+
+  // Dashboard
+  searchSymbol: 'Tìm kiếm cặp tiền...',
+  price: 'Giá',
+  change24h: 'Thay đổi 24h',
+  volume: 'Khối lượng',
+  stats: 'Thống kê',
+  high: 'Cao nhất',
+  low: 'Thấp nhất',
+
+  // Trade
+  buy: 'Mua',
+  sell: 'Bán',
+  long: 'Long',
+  short: 'Short',
+  spot: 'Spot',
+  futures: 'Futures',
+  market: 'Thị trường',
+  limit: 'Giới hạn',
+  paper: 'Demo',
+  real: 'Thật',
+  amount: 'Số lượng',
+  total: 'Tổng',
+  placeOrder: 'Đặt lệnh',
+  insufficientBalance: 'Số dư không đủ',
+  orderPlaced: 'Lệnh đã được đặt',
+  orderFilled: 'Lệnh đã khớp',
+  orderCancelled: 'Lệnh đã hủy',
+  leverage: 'Đòn bẩy',
+  marginRequired: 'Ký quỹ yêu cầu',
+  liquidationPrice: 'Giá thanh lý',
+  openPosition: 'Mở vị thế',
+  closePosition: 'Đóng vị thế',
+  unrealizedPnl: 'P&L chưa realize',
+  positions: 'Vị thế',
+  noPositions: 'Chưa có vị thế nào',
+
+  // Portfolio
+  totalValue: 'Tổng giá trị',
+  available: 'Khả dụng',
+  inOrder: 'Đang giao dịch',
+  pnl: 'Lợi nhuận',
+  pnlPercent: '% Lợi nhuận',
+  holdings: 'Tài sản',
+  noHoldings: 'Chưa có tài sản nào',
+
+  // Orders/History
+  deposit: 'Nạp tiền',
+  depositPrompt: 'Nhập số USDT muốn nạp',
+  depositSuccess: 'Nạp tiền thành công',
+  depositInvalid: 'Vui lòng nhập số hợp lệ',
+  // Orders/History
+  orderHistory: 'Lịch sử giao dịch',
+  transactionHistory: 'Lịch sử giao dịch',
+  spotHistory: 'Lịch sử Spot',
+  futuresHistory: 'Lịch sử Futures',
+  closePrice: 'Giá đóng',
+  realizedPnl: 'P&L thực tế',
+  filterSymbol: 'Lọc theo cặp tiền',
+  noOrders: 'Chưa có lệnh nào',
+  status: 'Trạng thái',
+  filled: 'Đã khớp',
+  pending: 'Chờ khớp',
+  cancelled: 'Đã hủy',
+  loadMore: 'Xem thêm',
+
+  // Alerts
+  createAlert: 'Tạo cảnh báo',
+  alertAbove: 'Giá trên',
+  alertBelow: 'Giá dưới',
+  alertPrice: 'Giá cảnh báo',
+  currentPrice: 'Giá hiện tại',
+  activeAlerts: 'Đang hoạt động',
+  triggeredAlerts: 'Đã kích hoạt',
+  noAlerts: 'Chưa có cảnh báo nào',
+  deleteAlert: 'Xóa cảnh báo',
+
+  // Notifications
+  noNotifications: 'Chưa có thông báo nào',
+  markAsRead: 'Đánh dấu đã đọc',
+
+  // Settings
+  apiKeys: 'API Keys',
+  apiKey: 'API Key',
+  secretKey: 'Secret Key',
+  testConnection: 'Kiểm tra kết nối',
+  connected: 'Đã kết nối',
+  disconnected: 'Chưa kết nối',
+  connectionSuccess: 'Kết nối thành công',
+  connectionFailed: 'Kết nối thất bại',
+  theme: 'Giao diện',
+  dark: 'Tối',
+  light: 'Sáng',
+  currency: 'Đơn vị tiền tệ',
+  // Account
+  accountInfo: 'Thông tin tài khoản',
+  displayName: 'Tên hiển thị',
+  changePassword: 'Đổi mật khẩu',
+  currentPassword: 'Mật khẩu hiện tại',
+  newPassword: 'Mật khẩu mới',
+  passwordChanged: 'Đổi mật khẩu thành công',
+  passwordChangeError: 'Đổi mật khẩu thất bại',
+  passwordTooShort: 'Mật khẩu phải có ít nhất 6 ký tự',
+  wrongPassword: 'Mật khẩu hiện tại không đúng',
+
+  about: 'Về ứng dụng',
+  version: 'Phiên bản',
+  save: 'Lưu',
+  cancel: 'Hủy',
+
+  // Admin
+  userManagement: 'Quản lý người dùng',
+  email_: 'Email',
+  role: 'Vai trò',
+  balance: 'Số dư',
+  orderCount: 'Số lệnh',
+  noUsers: 'Không có người dùng',
+
+  // Help
+  faq: 'Câu hỏi thường gặp',
+  faq1_q: 'Làm thế nào để bắt đầu giao dịch?',
+  faq1_a: 'Đăng ký tài khoản, nạp USDT ảo (10,000 USDT) và bắt đầu giao dịch demo.',
+  faq2_q: 'Làm thế nào để trade thật?',
+  faq2_a: 'Vào Cài đặt > API Keys, nhập Binance API Key của bạn và bật chế độ Real.',
+  faq3_q: 'Tiền thật có an toàn không?',
+  faq3_a: 'API Key chỉ lưu trên thiết bị của bạn, không gửi lên server. Không ai có thể rút tiền từ key của bạn.',
+  feedback: 'Gửi phản hồi',
+  feedbackPlaceholder: 'Nhập ý kiến của bạn...',
+  submit: 'Gửi',
+  feedbackSuccess: 'Cảm ơn bạn đã gửi phản hồi!',
+  appDescription: 'Ứng dụng giao dịch Crypto - Demo & Real Trading',
+  developer: 'Phát triển bởi',
+
+  // Errors
+  success: 'Thành công',
+  error: 'Lỗi',
+  networkError: 'Mất kết nối mạng',
+  tryAgain: 'Thử lại',
+  unknownError: 'Lỗi không xác định',
+};
+
+export default vi;

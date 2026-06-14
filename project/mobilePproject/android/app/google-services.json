@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "7830914385",
+    "project_id": "cryptotradingdemo-aaeeb",
+    "storage_bucket": "cryptotradingdemo-aaeeb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7830914385:android:8d6c5ed314ecd23ef47f70",
+        "android_client_info": {
+          "package_name": "com.mobilepproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7830914385-1rqpkfioihhhr9r6si79c5iepm46lrel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobilepproject",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "7830914385-nr84gkfm1sb6gq3darrpee829tuch5nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8vcsYINM3aWQfohboj3-xI1Ed2Sq3LZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7830914385-nr84gkfm1sb6gq3darrpee829tuch5nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
