@@ -8,9 +8,9 @@ import com.facebook.react.uimanager.ViewManager
 class AppPackage : ReactPackage {
     override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
         return listOf(
-            NfcModule(reactContext),
-            CompassModule(reactContext)
-        )
+            CompassModule(reactContext),
+            NfcModule(reactContext)
+        );
     }
 
     override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
